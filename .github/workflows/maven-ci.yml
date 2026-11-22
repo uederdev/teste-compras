@@ -31,6 +31,5 @@ jobs:
         with:
           distribution: 'temurim'
           java-version: 21
-          cache: 'maven'
 
 
