@@ -29,7 +29,8 @@ jobs:
       - name: Configura o JDK - 21
         uses: actions/setup-java@v6
         with:
-          distribution: 'temurim'
+          distribution: 'temurin'
           java-version: 21
+          cache: maven
 
 
